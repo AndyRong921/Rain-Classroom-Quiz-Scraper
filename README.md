@@ -98,7 +98,7 @@ SAVE_PATH = "/Users/AndyRONG/Downloads/雨课堂题库_智能版.xlsx"
 
 # 第二部分：题库 Excel 转 PDF 生成器 (Excel to PDF Quiz Generator)
 
-这是一个基于 Python 的实用工具，用于将 Excel 格式的题库自动转换为排版精美的 PDF 文件。
+这是一个基于 Python 的实用工具，用于将 Excel 格式的题库自动转换为排版精美的 PDF 文件。在进行本部分之前，请确保你已经进行了第一部分的爬取内容，并已将生成的多个Excel文件合并成一个Excel文件，格式严格遵从**数据格式要求**（见下）
 
 该工具专为整理“雨课堂”等平台的题库设计，能够一键生成两个版本的 PDF：
 1.  **解析版**：每道题下方紧跟正确答案，适合背诵和复习。
