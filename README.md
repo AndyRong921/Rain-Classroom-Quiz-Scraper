@@ -34,12 +34,13 @@ pip install pandas selenium webdriver-manager openpyxl
 ```python
 # ================= 配置区域 =================
 # 目标网址 (通常不需要修改)
-URL = "[https://www.yuketang.cn/v2/web/index](https://www.yuketang.cn/v2/web/index)" 
+URL = "[https://www.yuketang.cn/v2/web/index]" 
 
 # 📢 重要：请修改为你自己的保存路径！
+SAVE_PATH = "/Users/AndyRONG/Downloads/雨课堂题库_智能版.xlsx"
 # Windows 示例: r"D:\学习资料\雨课堂题库.xlsx"
 # Mac 示例: "/Users/your_name/Downloads/雨课堂题库.xlsx"
-SAVE_PATH = "/Users/rongzhijin/Downloads/雨课堂题库_智能版.xlsx"
+
 # ===========================================
 ```
 
@@ -55,7 +56,7 @@ SAVE_PATH = "/Users/rongzhijin/Downloads/雨课堂题库_智能版.xlsx"
 2.  **登录与进入课程**：
 
       - 脚本会自动打开一个 Chrome 浏览器窗口。
-      - 请在浏览器中**手动登录**雨课堂账号。
+      - 请在浏览器中选择要登录的雨课堂（OUC默认选择长江雨课堂），然后微信扫码登录账号。
       - 点击进入你要刷题的课程章节。
 
 3.  **操作流程**：
@@ -99,12 +100,4 @@ SAVE_PATH = "/Users/rongzhijin/Downloads/雨课堂题库_智能版.xlsx"
 
 ```
 
-### 建议操作步骤
 
-1.  在你的项目文件夹中新建一个文件，命名为 `README.md`。
-2.  将上面的代码复制进去。
-3.  确保你的代码文件名（例如 `spider.py`）和 README 中提到的运行命令一致。
-4.  Commit 并 Push 到 GitHub。
-
-这样你的仓库看起来就会非常专业且易于使用了！
-```
