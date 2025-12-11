@@ -141,32 +141,26 @@ pip install pandas openpyxl reportlab
 
 ## 🚀 快速开始
 
-1.  克隆本项目到本地：
 
-    ```bash
-    git clone [https://github.com/AndyRong921/Excel-to-PDF-Quiz-Generator.git](https://github.com/AndyRong921/Excel-to-PDF-Quiz-Generator.git)
-    cd Excel-to-PDF-Quiz-Generator
-    ```
+1.  将你的题库 Excel 文件放入项目目录（例如命名为 `question_bank.xlsx`）。
 
-2.  将你的题库 Excel 文件放入项目目录（例如命名为 `question_bank.xlsx`）。
-
-3.  修改脚本 `paiban.py` 顶部的配置区域：
+2.  修改脚本 `paiban.py` 顶部的配置区域：(INPUT_EXCEL_NAME内需要输入文件所在地址)
 
     ```python
     # ================= 配置区域 =================
-    INPUT_EXCEL_NAME = "question_bank.xlsx"  # 你的输入文件名
+    INPUT_EXCEL_NAME = "xxxx/xxxxx/xxxxx/xxxx/question_bank.xlsx"  # 你的输入文件名
     OUTPUT_PREFIX = "自定义姓名"        # 输出文件名前缀
     HEADER_TEXT = "适用学期：2025年秋季学期"   # PDF 页眉文字
     # ===========================================
     ```
 
-4.  运行脚本：
+3.  运行脚本：
 
     ```bash
     python paiban.py
     ```
 
-5.  运行成功后，你将在同目录下看到生成的两个 PDF 文件（解析版 & 练习版）。
+4.  运行成功后，你将在同目录下看到生成的两个 PDF 文件（解析版 & 练习版）。
 
 ## ⚙️ 高级配置
 
